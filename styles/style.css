@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Mulish", sans-serif;
+    color: #424247;
+}
+/* common styles */
+.container{
+    width: 90%;
+    margin: 6.25rem auto;
+    border: 1rem;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #131318;
+    line-height: normal;
+}
+.span_color{
+    color: #FF5400;
+}
+p{
+    margin: 1rem 0rem;
+    line-height: 2;
+}
+.text_center{
+    text-align: center;
+}
+.btn_primary{
+    padding: 14px 34px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+/* navbar styles */
+.navbar, .nav_logo, .nav_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar{
+    margin-bottom: 3.12rem;
+}
+.nav_logo{
+    gap: 0.5rem;
+}
+.nav_logo h3{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: #131318;
+}
+.nav_item{
+    gap: 2rem;
+    font-size: 1.12rem;
+    color: #424247;
+}
+.nav_item li{
+    list-style: none;
+}
+
+/* banner */
+.banner{
+    background-image: linear-gradient(rgba(19, 19, 24, 0.5), rgba(19, 19, 24, 0.7)), url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    border-radius: 8px;
+}
+.banner_content h3{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+.travel_input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.travel_input>input,select{
+    width: 11rem;
+    height: 3.12rem;
+    margin: 0rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.travel_input input::placeholder{
+  
+}
+#options{
+    color: #424247;
+    padding: 10px;
+}
+/* popular tour styles */
+.popular_tour{
+    display: flex;
+    justify-content: space-between;
+}
+.popular_content{
+    max-width: 577px;
+}
+.popular_content ul li{
+    line-height: 2;
+    margin-left: 2rem;
+}
+.popular_image{
+    max-width: 540px;
+}
