@@ -96,8 +96,7 @@ p{
     backdrop-filter: blur(4px);
     padding: 1rem;
     display: flex;
-    justify-content: center;
-    text-align: center;
+   
 }
 .travel_input>input{
     width: 11rem;
@@ -246,6 +245,8 @@ p{
         width: 100%;
     }
     .travel_input > input, .travel_input>select{
+        
+        margin: 0 auto;
         margin-bottom: 10px;
     }
     p{
